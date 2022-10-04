@@ -1,0 +1,12 @@
+.home {
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.home-image {
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 1), rgba(68, 32, 32, 0));
+    cursor: pointer;
+    z-index: -1;
+     margin-bottom: -150px;
+}

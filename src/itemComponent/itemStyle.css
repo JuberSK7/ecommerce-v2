@@ -1,0 +1,45 @@
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: aliceblue; 
+  width: 80%;
+  height: 400px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin: 1rem;
+}
+button{
+  transition-duration: 0.4s;
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+
+  
+}
+
+button:hover {
+  background-color: #ff9910;
+  color: white;
+}
+
+.item-img {
+  height: 200px;
+  object-fit: contain;
+}
+
+div {
+  text-align: center;
+
+}
+h4{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(30, 28, 28);
+}
+h3{
+  font-size: 18px;
+}
