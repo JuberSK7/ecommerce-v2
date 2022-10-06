@@ -24,7 +24,7 @@ const App = () => {
 
   const { data, isLoading, error } = useQuery("products", getProduct);
 
-  console.log(data);
+ 
 
   const getTotaleItems = (items) =>
     items.reduce((ack, item) => ack + item.amount, 0);
