@@ -1,6 +1,6 @@
 import React from "react";
 import "./itemStyle.css";
-// import Button from "@material-ui/core/Button";
+
 
 const Item = ({ item, handleAddToCart }) => {
   return (
